@@ -3,7 +3,7 @@ import carga_palabras
 import wordle_funciones
 
 def main():
-    """establecemos la lista de palabras que vamos a tomar y las cargamos """
+    """Establecemos la lista de palabras que vamos a tomar y las cargamos """
     ruta = "palabras_5.txt"
     palabras = carga_palabras.cargar_palabras_limpias(ruta)
     """Elegimos la palabra secreta"""
